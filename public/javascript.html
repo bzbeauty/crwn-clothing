@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+  <script>
+   const multiplier = factor => {
+       return number => number * factor;
+   }
+   let twice = multiplier(2);
+   console.log(typeof twice);
+   console.log(twice(5));
+
+   let tenTimes = multiplier(10);
+   console.log(tenTimes(8));
+  </script>
+
+</body>
+
+</html>
